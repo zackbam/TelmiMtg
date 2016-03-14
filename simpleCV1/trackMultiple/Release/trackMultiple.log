@@ -1,0 +1,23 @@
+﻿Build started 14/03/2016 18:37:16.
+     1>Project "C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\trackMultiple\trackMultiple.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\build\include /I"F:\opencv-2.4.11\build\..\source\modules\legacy\include" /I"F:\opencv-2.4.11\build\..\source\modules\objdetect\include" /I"F:\opencv-2.4.11\build\..\source\modules\calib3d\include" /I"F:\opencv-2.4.11\build\..\source\modules\flann\include" /I"F:\opencv-2.4.11\build\..\source\modules\features2d\include" /I"F:\opencv-2.4.11\build\..\source\include" /I"F:\opencv-2.4.11\build\..\source\modules\core\include" /I"F:\opencv-2.4.11\build\..\source\modules\highgui\include" /I"F:\opencv-2.4.11\build\..\source\modules\imgproc\include" /I"F:\opencv-2.4.11\build\..\source\modules\video\include" /I"F:\opencv-2.4.11\build\..\source\modules\nonfree\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Fruit.cpp multipleObjectTracking.cpp
+         Fruit.cpp
+         multipleObjectTracking.cpp
+     1>multipleObjectTracking.cpp(39): warning C4244: 'initializing' : conversion from 'double' to 'const int', possible loss of data
+     1>multipleObjectTracking.cpp(91): warning C4018: '<' : signed/unsigned mismatch
+     1>multipleObjectTracking.cpp(156): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>multipleObjectTracking.cpp(157): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>multipleObjectTracking.cpp(209): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>multipleObjectTracking.cpp(210): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\Release\trackMultiple.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv2411\build\x86\vc11\lib /LIBPATH:"F:\opencv-2.4.11\build\lib\Release" opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_haartraining_engine.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\Release\trackMultiple.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\Release\trackMultiple.lib" /MACHINE:X86 /SAFESEH Release\Fruit.obj
+         Release\multipleObjectTracking.obj
+         Generating code
+         Finished generating code
+         trackMultiple.vcxproj -> C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\Release\trackMultiple.exe
+     1>Done Building Project "C:\Users\zackbam\Documents\Visual Studio 2012\Projects\simpleCV1\trackMultiple\trackMultiple.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.85

@@ -1,0 +1,15 @@
+﻿Build started 29/02/2016 13:57:47.
+     1>Project "C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Cam2File\Cam2File.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\legacy\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\objdetect\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\calib3d\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\flann\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\features2d\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\core\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\highgui\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\imgproc\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\video\include" /I"F:\opencv-2.4.11\build_x86_vc11\..\source\modules\nonfree\include" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Release\Cam2File.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"F:\opencv-2.4.11\build_x86_vc11\lib\Release" opencv_calib3d2411.lib opencv_contrib2411.lib opencv_core2411.lib opencv_features2d2411.lib opencv_flann2411.lib opencv_gpu2411.lib opencv_haartraining_engine.lib opencv_highgui2411.lib opencv_imgproc2411.lib opencv_legacy2411.lib opencv_ml2411.lib opencv_nonfree2411.lib opencv_objdetect2411.lib opencv_ocl2411.lib opencv_photo2411.lib opencv_stitching2411.lib opencv_superres2411.lib opencv_ts2411.lib opencv_video2411.lib opencv_videostab2411.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Release\Cam2File.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Release\Cam2File.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Generating code
+         Finished generating code
+         Cam2File.vcxproj -> C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Release\Cam2File.exe
+     1>Done Building Project "C:\Users\zackbam\documents\visual studio 2012\Projects\simpleCV1\Cam2File\Cam2File.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.04

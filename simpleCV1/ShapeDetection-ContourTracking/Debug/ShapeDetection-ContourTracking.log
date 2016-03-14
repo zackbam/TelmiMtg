@@ -1,0 +1,11 @@
+﻿Build started 29/02/2016 20:01:57.
+     1>Project "C:\Users\r\Documents\Visual Studio 2012\Projects\simpleCV1\ShapeDetection-ContourTracking\ShapeDetection-ContourTracking.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv2411\build\..\source\modules\legacy\include /IC:\opencv2411\build\..\source\modules\objdetect\include /IC:\opencv2411\build\..\source\modules\calib3d\include /IC:\opencv2411\build\..\source\modules\flann\include /IC:\opencv2411\build\..\source\modules\features2d\include /IC:\opencv2411\build\..\source\include /IC:\opencv2411\build\..\source\modules\core\include /IC:\opencv2411\build\..\source\modules\highgui\include /IC:\opencv2411\build\..\source\modules\imgproc\include /IC:\opencv2411\build\..\source\modules\video\include /IC:\opencv2411\build\..\source\modules\nonfree\include /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\r\documents\visual studio 2012\projects\simplecv1\shapedetection-contourtracking\main.cpp(2): fatal error C1083: Cannot open include file: 'opencv/cv.h': No such file or directory
+     1>Done Building Project "C:\Users\r\Documents\Visual Studio 2012\Projects\simpleCV1\ShapeDetection-ContourTracking\ShapeDetection-ContourTracking.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.42
